@@ -4,6 +4,13 @@
   "description": "A lightweight React hook for fetching data. Manages loading and error states while supporting all native Fetch API options.",
   "license": "MIT",
   "author": "Ferhat",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferhatcklt/react-fetch-lite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kullanici-adin/react-fetch-lite/issues"
+  },
   "keywords": [
     "react",
     "hook",
