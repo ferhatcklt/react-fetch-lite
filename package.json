@@ -1,0 +1,34 @@
+{
+  "name": "react-fetch-lite",
+  "version": "1.0.0",
+  "description": "A lightweight React hook for fetching data. Manages loading and error states while supporting all native Fetch API options.",
+  "license": "MIT",
+  "author": "Ferhat",
+  "keywords": [
+    "react",
+    "hook",
+    "fetch",
+    "api",
+    "useFetch"
+  ],
+  "main": "dist/useFetch.js",
+  "module": "dist/useFetch.mjs",
+  "types": "dist/useFetch.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "parcel example/index.html",
+    "build": "tsup src/useFetch.js --format cjs,esm --dts --clean"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  }
+}
